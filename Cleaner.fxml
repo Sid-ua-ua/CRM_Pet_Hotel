@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="600.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.svirskiy.crm_hotelpet.MainMenuController">
+  <children>
+      <AnchorPane prefHeight="54.0" prefWidth="900.0" style="-fx-background-color: #255F00;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cleaner">
+               <font>
+                  <Font name="Roboto Black" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="46.0" fitWidth="51.0" layoutX="841.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="800.0" layoutY="19.0" prefHeight="17.0" prefWidth="32.0" text="Label" />
+         </children>
+      </AnchorPane>
+    <SplitPane dividerPositions="0.2505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <items>
+        <AnchorPane prefHeight="534.0" prefWidth="263.0">
+               <children>
+                  <TreeView fx:id="treeView" layoutY="-2.0" prefHeight="547.0" prefWidth="231.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children></AnchorPane>
+        <ScrollPane prefHeight="-1.0" prefWidth="-1.0">
+          <content>
+            <AnchorPane id="Content" fx:id="pane" minHeight="-1.0" minWidth="-1.0" prefHeight="545.0" prefWidth="675.0" />
+          </content>
+        </ScrollPane>
+      </items>
+    </SplitPane>
+  </children>
+</VBox>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="310.0" prefWidth="360.0" style="-fx-background-color: #f2f2f2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.svirskiy.crm_hotelpet.Registration">
+   <children>
+      <AnchorPane prefHeight="47.0" prefWidth="360.0" style="-fx-background-color: #255F00;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PetHouse">
+               <font>
+                  <Font name="Roboto Black" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="106.0" layoutY="180.0" prefHeight="23.0" prefWidth="149.0" promptText="Логін" style="-fx-background-color: #a1887f; -fx-background-radius: 5;">
+         <font>
+            <Font name="Roboto" size="12.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="106.0" layoutY="210.0" promptText="Пароль" style="-fx-background-color: #a1887f; -fx-background-radius: 5;" />
+      <PasswordField layoutX="106.0" layoutY="241.0" prefHeight="25.0" prefWidth="149.0" promptText="Підтвердіть пароль" style="-fx-background-color: #a1887f; -fx-background-radius: 5;" />
+      <Button layoutX="125.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: #8bc34a;" text="Зареєструвати" textFill="WHITE">
+         <font>
+            <Font name="Lobster Regular" size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="106.0" layoutY="86.0" promptText="ФІО" style="-fx-background-color: #a1887f; -fx-background-radius: 5;" />
+      <DatePicker layoutX="106.0" layoutY="149.0" prefHeight="25.0" prefWidth="149.0" promptText="День народження" style="-fx-background-color: #a1887f; -fx-background-radius: 5;" />
+      <Text layoutX="122.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Реєстрація">
+         <font>
+            <Font name="Lobster Regular" size="24.0" />
+         </font>
+      </Text>
+      <ChoiceBox layoutX="106.0" layoutY="117.0" prefWidth="150.0" style="-fx-background-color: #a1887f; -fx-background-radius: 5;" />
+   </children>
+</AnchorPane>
